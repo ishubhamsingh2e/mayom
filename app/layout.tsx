@@ -29,15 +29,15 @@ export default function RootLayout({
             <div className="sticky top-0 z-50 bg-white shadow-sm">
               <div className="bg-blue-50 py-2">
                 <div className="container flex items-center justify-between text-sm">
-                  <div className="flex items-center space-x-4">
-                    <div className="flex items-center space-x-1">
+                  <div className="md:flex items-center md:space-x-4">
+                    <Link className="flex items-center space-x-1" href="tel:+011-2222-3333">
                       <Phone className="h-3 w-3 text-blue-600" />
                       <span>+011-2222-3333</span>
-                    </div>
-                    <div className="flex items-center space-x-1">
+                    </Link>
+                    <Link className="flex items-center space-x-1" href="mailto:info@mayomhospital.com">
                       <Mail className="h-3 w-3 text-blue-600" />
                       <span>info@mayomhospital.com</span>
-                    </div>
+                    </Link>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Link href="#" className="text-gray-600 hover:text-blue-600">
